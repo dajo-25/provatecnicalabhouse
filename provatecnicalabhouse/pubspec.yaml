@@ -1,0 +1,62 @@
+name: provatecnicalabhouse
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.6
+  provider: ^6.0.5
+  shared_preferences: ^2.1.0
+  dio: ^5.0.0
+  http: ^0.13.6
+  flutter_native_splash: ^2.2.19
+  palette_generator: ^0.3.3+2
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_lints: ^2.0.0
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/hange_icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter_native_splash:
+  color: "#c2fcb3"
+  image_ios: "assets/images/hange_splash.png"
+  image_android: "assets/images/hange_splash.png"
+  ios_content_mode: "center"
+  android_gravity: "center"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/
+
+  fonts:
+    - family: Noto Sans
+      fonts:
+        - asset: assets/fonts/notosans.ttf
+    - family: Mulish
+      fonts:
+          - asset: assets/fonts/mulish.ttf

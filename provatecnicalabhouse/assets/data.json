@@ -1,0 +1,114 @@
+{
+  "id": 1,
+  "pdf_path": "local_path",
+  "excel_path": "local_path",
+  "customer_name": "Mercadona",
+  "customer_logo_path": "local_path",
+  "technical_advisor": {
+    "id": 1,
+    "full_name": "Alejandro Tolosa",
+    "updated_at": "01-01-1970"
+  },
+  "lubricant_consultant": {
+    "id": 1,
+    "full_name": "Alejandro Tolosa",
+    "updated_at": "01-01-1970"
+  },
+  "machines": [
+    {
+      "id": 1,
+      "name": "Machine 1",
+      "area": "Area 3, planta 2",
+      "manufacturer": "Siemens",
+      "applications": [
+        {
+          "first_application_option": {
+            "id": 1,
+            "name": "Rodamientos"
+          },
+          "second_application_option": {
+            "id": 1,
+            "name": "Guias"
+          },
+          "images": {
+            "id": 1,
+            "image": "local_path",
+            "edited_image": "local_path"
+          },
+          "maintenance": {
+            "id": 1,
+            "action": {
+              "id": "1",
+              "name": "Extender",
+              "updated_at": "01-01-1970"
+            },
+            "cleaner": {
+              "id": "1",
+              "name": "KH-7",
+              "color": "#000000",
+              "image": "local_path",
+              "updated_at": "01-01-1970"
+            },
+            "format": {
+              "id": "1",
+              "name": "Rociar",
+              "image": "local_path",
+              "updated_at": "01-01-1970"
+            },
+            "advice": {
+              "id": "1",
+              "name": "Limpiar con cuidado!",
+              "concat_name": "Aplicar 3 veces con KH7",
+              "updated_at": "01-01-1970"
+            },
+            "cleaner_code": "ROC-KH7",
+            "hardware": {
+              "id": "1",
+              "name": "Placa base",
+              "color": "#000000",
+              "product_code": "MB-4335",
+              "image": "local_path",
+              "updated_at": "01-01-1970"
+            },
+            "lubricant_spot": "En el engranaje",
+            "apply_mode": {
+              "id": 1,
+              "name": "Pistola de engrase",
+              "updated_at": "01-01-1970"
+            },
+            "lubricants_maintenance": [
+              {
+                "id": 1,
+                "lubricant": {
+                  "name": "Lubricante 1",
+                  "color": "#000000",
+                  "image": "local_path",
+                  "updated_at": "01-01-1970",
+                  "category": {
+                    "id": 1,
+                    "name": "Aceite",
+                    "updated_at": "01-01-1970"
+                  }
+                },
+                "mode": {
+                  "id": 1,
+                  "name": "png",
+                  "image": "local_path",
+                  "updated_at": "01-01-1970"
+                },
+                "interval": {
+                  "id": 1,
+                  "name": "png",
+                  "color": "#000000",
+                  "updated_at": "01-01-1970"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "created_at": "01-01-1970",
+  "updated_at": "01-01-1970"
+}
