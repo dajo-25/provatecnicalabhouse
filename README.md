@@ -4,6 +4,7 @@
 - He hecho la prueba en ANDROID.
 - He dedicado algo más de 12 horas, pues se me iban ocurriendo ideas y no podía parar de experimentar. He preferido forzar un poco los engranajes para crear algo mejor.
 - La API Key de OpenAI debe ir a lib/src/config/globals.dart
+- La gestión del estado la he hecho con provider, ya que no requería de grandes estructuras de estado más alla de un par o tres de grupos de datos.
 
 Me gustaría dar un pequeño disclaimer por posibles partes con código sucio: he estado experimentando con muchas cosas hechas a mano y pese a que he revisado todo, puede haber quedado algun rastro de suciedad y de cosas mal optimizadas.
 
